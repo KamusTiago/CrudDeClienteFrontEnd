@@ -8,12 +8,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { ClienteComponent } from './cliente/cliente.component';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome'
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClienteComponent,
     HomePage
   ],
   imports: [
@@ -23,7 +22,8 @@ import { ClienteComponent } from './cliente/cliente.component';
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   entryComponents:[
     HomePage

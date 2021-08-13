@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { CredenciaisDTO } from "src/app/models/credenciais.dto";
 
 
 @Component({
@@ -7,10 +8,20 @@ import { Component } from "@angular/core";
 })
 export class HomePage{
 
-    constructor(){
-    }
-
-    ngOnInit(){
+    creds :CredenciaisDTO ={
+        email: "",
+        senha: ""
+      };
+    
+      constructor() {
+      }
+    
+      login(){
         
+      }
+    
+      singUp(){
+      }
+    
+    
     }
-}
